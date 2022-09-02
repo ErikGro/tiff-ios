@@ -216,27 +216,19 @@
 		042FC64D1B963FE500549A4B /* tiff-ios */ = {
 			isa = PBXGroup;
 			children = (
+				A17FD85328C2C85300D485C9 /* include */,
 				042FC6D41B96453E00549A4B /* tiff_ios.h */,
 				04B60FA91E37AB9600E73068 /* compression */,
 				04B60FAA1E37ABB200E73068 /* io */,
 				04B60FAB1E37ABBC00E73068 /* util */,
-				04B60FAC1E37AC3100E73068 /* TIFFFieldTagTypes.h */,
 				04B60FAD1E37AC3100E73068 /* TIFFFieldTagTypes.m */,
-				04B60FAE1E37AC3100E73068 /* TIFFFieldTypes.h */,
 				04B60FAF1E37AC3100E73068 /* TIFFFieldTypes.m */,
-				04B60FB01E37AC3100E73068 /* TIFFFileDirectory.h */,
 				04B60FB11E37AC3100E73068 /* TIFFFileDirectory.m */,
-				04B60FB21E37AC3100E73068 /* TIFFFileDirectoryEntry.h */,
 				04B60FB31E37AC3100E73068 /* TIFFFileDirectoryEntry.m */,
-				04B60FB41E37AC3100E73068 /* TIFFImage.h */,
 				04B60FB51E37AC3100E73068 /* TIFFImage.m */,
-				04B60FB61E37AC3100E73068 /* TIFFImageWindow.h */,
 				04B60FB71E37AC3100E73068 /* TIFFImageWindow.m */,
-				04B60FB81E37AC3100E73068 /* TIFFRasters.h */,
 				04B60FB91E37AC3100E73068 /* TIFFRasters.m */,
-				04B60FBA1E37AC3100E73068 /* TIFFReader.h */,
 				04B60FBB1E37AC3100E73068 /* TIFFReader.m */,
-				04B60FBC1E37AC3100E73068 /* TIFFWriter.h */,
 				04B60FBD1E37AC3100E73068 /* TIFFWriter.m */,
 				042FC69E1B96421E00549A4B /* tiff-ios-Prefix.pch */,
 				042FC64E1B963FE500549A4B /* Supporting Files */,
@@ -341,6 +333,22 @@
 				04B610111E37AD6E00E73068 /* TIFFConstants.m */,
 			);
 			path = util;
+			sourceTree = "<group>";
+		};
+		A17FD85328C2C85300D485C9 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				04B60FAC1E37AC3100E73068 /* TIFFFieldTagTypes.h */,
+				04B60FAE1E37AC3100E73068 /* TIFFFieldTypes.h */,
+				04B60FB01E37AC3100E73068 /* TIFFFileDirectory.h */,
+				04B60FB21E37AC3100E73068 /* TIFFFileDirectoryEntry.h */,
+				04B60FB41E37AC3100E73068 /* TIFFImage.h */,
+				04B60FB61E37AC3100E73068 /* TIFFImageWindow.h */,
+				04B60FB81E37AC3100E73068 /* TIFFRasters.h */,
+				04B60FBA1E37AC3100E73068 /* TIFFReader.h */,
+				04B60FBC1E37AC3100E73068 /* TIFFWriter.h */,
+			);
+			path = include;
 			sourceTree = "<group>";
 		};
 		BF3CA5D617C2909C4DF1D765 /* Frameworks */ = {

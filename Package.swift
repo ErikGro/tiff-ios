@@ -21,8 +21,7 @@ let package = Package(
         .target(
             name: "tiff-ios",
             dependencies: [],
-            path: "tiff-ios",
-            publicHeadersPath: "."),
+            path: "tiff-ios"),
         .testTarget(
             name: "tiff-iosTests",
             dependencies: ["tiff-ios"],
